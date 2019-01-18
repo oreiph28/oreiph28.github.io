@@ -1,88 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
+  
+ <head>  
     <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+   <!-- GOOGLE EARTH -->
+<link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAVWqVjNRy6q63B4RNhMSf9lxY9LMHG7CI'></script>
+
+<!-- BOOTSTRAP RESPONSIVE -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- klacht.css -->
+<link rel="stylesheet" type="text/css" href="css/klacht.css">
+
+
+<!-- BOOTSTRAP SOCIAL BUTTONS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/bootstrap-social.css">   
+   
+<!-- GOOGLE CSS -->
+<link rel="stylesheet" type="text/css" href="css/google.css">   
+ 
+<!-- FONT AWESOME 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  -->
     <title>Contact</title>
     <link rel="stylesheet" href="ik.css">
     <link rel="icon" href="images/nelio.png" type="image/gif" sizes="16x16">
    </head>
   
   <body>
+      <!-- NAVBAR 1 -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+           <div class="navbar-header">
+               <a class="navbar-brand" href="index.html"><i class="fas fa-home"></i> Home</a>
+           </div>
+          <ul class="nav navbar-nav">
+         <li><a href="ik.html">Me</a></li>
+            <li><a href="persoon.html">Adress</a></li>
+            <li><a href="cv.html"><i class="far fa-comment-dots"></i> CV</a></li>
+           
+            <li><a href="certificaten.html">Certificates</a></li>
+			 <li><a href="contact.html">Contact</a></li>
+			 <li><a href="nawoord.html">Nawoord</a></li>
+          </ul>
+        </div>
+      </nav>
   
-  <div class="topnav">
-  <a href="index.html">Home</a>
-  <a href="ik.html">Me</a>
-  <a href="persoon.html">Adress</a>
-  <a href="cv.html">CV</a>
-  <a href="certificaten.html">Certificates</a>
-  <a href="contact.html">Contact</a>
-  <a href="nawoord.html">Nawoord</a>
-  </div>
+  
+ 
   
 
 <p id="i">Contact</p> 
  
-  <form id="div7" name="contactform" method="post" action="email.php">
-<table width="450px">
-<tr>
- <td valign="top">
-  <label for="first_name">First Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="first_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="last_name">Last Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="last_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="email">Email Address *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="email" maxlength="80" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="telephone">Telephone Number</label>
- </td>
- <td valign="top">
-  <input  type="text" name="telephone" maxlength="30" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="comments">Comments *</label>
- </td>
- <td valign="top">
-  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
- </td>
-</tr>
-<tr>
- <td colspan="2" style="text-align:center">
-  <input id="button" type="submit" value="Submit">   
- </td>
-</tr>
-</table>
-</form>
-  
-  <br />
-  <div class="div8">
-  <a  href="https://www.facebook.com/ornelio.reiph"><img src="images/facebook.jpg" width="50" height="50" alt="facebook" title="Facebook"  /></a>
-   <a  href="https://www.linkedin.com/in/ornelio-reiph-71227842/"><img src="images/linked.jpg" width="50" height="50" alt="linkedin" title="linkedin"  /></a>
-   <a  href="https://twitter.com/nubianreiph"><img src="images/twitter.png" width="50" height="50" alt="twitter" title="twitter"  /></a>
-  <a href="mailto:oreiph@hotmail.com"><font color="#45FF30">Email:oreiph@hotmail.com</font></a><br />
-<a href="https://www.linkedin.com/in/ornelio-reiph-71227842/" target="_self"><font color="#45FF30">Linked ID: Ornelio Reiph</font></a>
+ 
+  <div class="container"> 
+ <div id="nawoord2" class="jumbotron" >
+ <form>
+  <div class="form-row">
+ 
+    <div class="form-group col-md-6">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" id="name" placeholder="Name">
+    </div>
+	   <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
   </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Place Text</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Enter Text"></textarea>
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Send</button>
+  <br/><br/>
+  <div>
+  <a href="https://www.facebook.com/ornelio.reiph"><img src="images/facebook.jpg" width="50" height="50" alt="facebook" title="Facebook"  /></a>
+  <a href="https://www.linkedin.com/in/ornelio-reiph-71227842/"><img src="images/linked.jpg" width="50" height="50" alt="linkedin" title="linkedin"  /></a>
+  <a href="https://twitter.com/nubianreiph"><img src="images/twitter.png" width="50" height="50" alt="twitter" title="twitter"  /></a>
+  <br/><br/><a href="mailto:oreiph@hotmail.com"> <font color="black"><b>Email: </b></font><font color="blue">oreiph@hotmail.com</font></a><br />
+  <a href="https://www.linkedin.com/in/ornelio-reiph-71227842/" target="_self"><font color="black"><b> Linked ID: </b></font><font color="blue"> Ornelio Reiph</font></a>
+  </div>
+</form>
+  </div></div>
+  
+  
+  
+  
   
   </body>
 </html>

@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+  
+ <head>  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+   <!-- GOOGLE EARTH -->
+<link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAVWqVjNRy6q63B4RNhMSf9lxY9LMHG7CI'></script>
 
-  <head>
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- BOOTSTRAP RESPONSIVE -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+    <!-- klacht.css -->
+<link rel="stylesheet" type="text/css" href="css/klacht.css">
+
+
+<!-- BOOTSTRAP SOCIAL BUTTONS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/bootstrap-social.css">   
+   
+<!-- GOOGLE CSS -->
+<link rel="stylesheet" type="text/css" href="css/google.css">   
+ 
+<!-- FONT AWESOME 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  -->
      <title>Nawoord</title>
      <link rel="stylesheet" href="ik.css">
 	 <link rel="icon" href="images/nelio.png" type="image/gif" sizes="16x16">
@@ -12,23 +35,36 @@
   
   <body>
   
-  <div class="topnav">
-  <a href="index.html">Home  </a>
-  <a href="ik.html">Me</a>
-  <a href="persoon.html">Adress</a>
-  <a href="cv.html">CV</a>
-  <a href="certificaten.html">Certificates</a>
-  <a href="contact.html">Contact</a>
-  <a href="nawoord.html">Nawoord</a>
+      <!-- NAVBAR 1 -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+           <div class="navbar-header">
+               <a class="navbar-brand" href="index.html"><i class="fas fa-home"></i> Home</a>
+           </div>
+          <ul class="nav navbar-nav">
+         <li><a href="ik.html">Me</a></li>
+            <li><a href="persoon.html">Adress</a></li>
+            <li><a href="cv.html"><i class="far fa-comment-dots"></i> CV</a></li>
+           
+            <li><a href="certificaten.html">Certificates</a></li>
+			 <li><a href="contact.html">Contact</a></li>
+			 <li><a href="nawoord.html">Nawoord</a></li>
+          </ul>
+        </div>
+      </nav>
+  
+
+
+  <div  id="nawoord"  class="container"> 
+    
+   <object  width="100%" height="500" data="codegorilla.pdf">CV Ornelio Reiph</object>
+    
   </div>
 
-  <div align="center" id="div5">
-    <p>
-   <object id="codegorilla" width="650" height="700" data="codegorilla.pdf">CV Ornelio Reiph</object>
-    </p>
-  </div>
-
-  <div align="center" id="div6">
+<br/>
+     <div class="container"> 
+ <div id="nawoord2" class="jumbotron" >
+ 
     
      <h3>Nawoord</h3>
     <p>
@@ -49,6 +85,6 @@
   12-11-2018
    </p>
  </div>
-
+</div>
   </body>
 </html>
