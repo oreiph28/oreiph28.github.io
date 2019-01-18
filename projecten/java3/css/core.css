@@ -1,0 +1,18 @@
+                       /*413px is the center*/
+
+body{
+background-color:#DDDDDD;
+background-image: url("images6.jpg"); 
+}
+
+h1 {
+position: relative;
+  
+color: blue;
+margin-left: 413px;
+
+margin-top:50px;
+}
+
+
+

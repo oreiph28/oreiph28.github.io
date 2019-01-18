@@ -1,0 +1,140 @@
+
+body { 
+background-color:#010203;
+background-image:url('background/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+   height: 1000px; 
+    max-width:100%px;
+    font-family:sans-serif;  
+ }
+
+
+
+
+#p0{
+font-size:20px;
+font-weight:bolder;
+margin:4px;
+ }
+ 
+ 
+   #time{
+font-size:12px;
+font-weight:bolder;
+margin:4px;
+ }
+ 
+ #date{
+font-size:12px;
+font-weight:bolder;
+margin:4px;
+ }
+ 
+  #timer{
+font-size:12px;
+font-weight:bolder;
+margin:4px;
+ }
+ 
+ 
+  #p1{
+font-size:20px;
+font-weight:bolder;
+margin:4px;
+ }
+ 
+  #p2{
+font-size:20px;
+font-weight:bolder;
+margin:4px;
+ }
+ 
+   #p22{
+font-size:12px;
+font-weight:bolder;
+margin:4px;
+word-wrap: break-word;
+ }
+ 
+ #p3{
+font-size:20px;
+font-weight:bolder;
+margin:4px;
+ }
+ 
+  #p33{
+font-size:12px;
+font-weight:bolder;
+margin:4px;
+ }
+ 
+ 
+  #p4{
+font-size:20px;
+font-weight:bolder;
+margin:4px;
+ }
+   #p44{
+font-size:12px;
+font-weight:bolder;
+margin:4px;
+ }
+ 
+ 
+ #Div_measure{
+ font-size:small;
+ height:500px;
+ width:85.5%;
+ background-color:gray;
+ opacity:0.7;
+ margin-top:28px;
+margin-left:8%;
+  }
+ 
+ 
+ #Div_Header{
+ height:30px;
+ width:96.7%;
+ background-color:black;
+ margin:4px;
+ padding:1%;
+  }
+  
+  
+  #Div_Database{
+ height:350px;
+ width:250px;
+ background-color:black;
+ margin:8px;
+ float:left;
+ 
+  }
+  
+  #Div_Connection{
+ height:350px;
+ width:250px;
+ background-color:black;
+ margin:8px;
+ float:left;
+ overflow:auto;
+  }
+  
+  #Div_HostData{
+ height:350px;
+ width:250px;
+ background-color:black;
+ margin:8px;
+ float:left;
+ overflow:auto;
+  }
+  
+    #Div_Ping{
+ height:350px;
+ width:250px;
+ background-color:black;
+ margin:8px;
+ float:left;
+ overflow:auto;
+  }

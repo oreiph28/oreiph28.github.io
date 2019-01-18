@@ -1,0 +1,11 @@
+Humanoid robots are now used as research tools in several scientific areas.<br/>
+Researchers study the human body structure and behavior (biomechanics) to build humanoid robots. <br/>
+On the other side, the attempt to simulate the human body leads to a better understanding of it. <br/>
+Human cognition is a field of study which is focused on how humans learn from sensory information in order to acquire perceptual and motor skills. <br/>
+This knowledge is used to develop computational models of human behavior and it has been improving over time.<br/>
+It has been suggested that very advanced robotics will facilitate the enhancement of ordinary humans. 
+<br/><br/>
+Thank you.
+<br/>
+Ornelio Reiph<br/>
+14-11-2018

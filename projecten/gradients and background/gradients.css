@@ -1,0 +1,461 @@
+body{
+background-color:#33BBEE;
+
+}
+
+/*LINEAR GRADIENT*/
+/*Color stops*/
+/*top*/
+div.top {
+    
+float: left;
+    
+width: 915px; 
+    
+height: 200px;
+    
+margin: 4px;
+    
+color: #FFF;  
+    
+background: linear-gradient(blue, yellow 20%, green 30%, pink 85%, white,red,orange);
+
+}
+
+/*Direction of the Gradient*/
+/*left*/
+div.left {
+    
+float: left;
+    
+width: 300px; 
+    
+height: 100px;
+    
+margin: 4px;
+    
+color: #FFF;  
+    
+background:-webkit-linear-gradient(left, blue, green, white);
+   
+background:-moz-linear-gradient(left, blue, green, white);
+  
+background:-ms-linear-gradient(left, blue, green, white);
+
+
+} 
+
+
+/*Direction of the Gradient*/
+/*bottom*/
+div.bottom { 
+    
+float: left;
+    
+width: 300px; 
+    
+height: 100px;
+    
+margin: 4px;
+  
+color:blue;  
+background:-webkit-linear-gradient(bottom, blue, green, white);
+    
+background:-moz-linear-gradient(bottom, blue, green, white);
+    
+background:-ms-linear-gradient(bottom, blue, green, white);
+}
+
+/*Direction of the Gradient*/
+/*bottom bottom_right*/
+div.bottom_right { 
+    
+float: left;
+    
+width: 300px; 
+    
+height: 100px;
+    
+margin: 4px;
+  
+color: #458790;  
+background:-webkit-linear-gradient(bottom right, blue, green, white);
+    
+background:-moz-linear-gradient(bottom right, blue, green, white);
+    
+background:-ms-linear-gradient(bottom right, blue, green, white);
+}
+
+/*angle of gradient*/
+/*bootom left*/
+div.bottom_left {
+    
+float: left;
+    
+width: 300px; 
+    
+height: 100px;
+    
+margin: 4px;
+    
+color: #FFF;
+    
+background: -webkit-linear-gradient(bottom left, blue, green, white);
+    
+background: -moz-linear-gradient(bottom left, blue, green, white);
+    
+background: -ms-linear-gradient(bottom left, blue, green, white);
+
+}
+
+
+/*Angle of the Gradient*/
+/*100 deg*/
+div.deg {
+    
+float: left;
+    
+width: 300px; 
+    
+height: 100px;
+    
+margin: 4px;
+    
+background: -webkit-linear-gradient(100deg, blue, green, white);
+    
+background: -moz-linear-gradient(100deg, blue, green, white);
+    
+background: -ms-linear-gradient(100deg, blue, green, white);
+
+}
+
+/*Angle of the Gradient*/
+/*130 deg*/
+div.deg2 {
+    
+float: left;
+    
+width: 300px; 
+    
+height: 100px;
+    
+margin: 4px;
+    
+background: -webkit-linear-gradient(130deg, blue, green, white);
+    
+background: -moz-linear-gradient(130deg, blue, green, white);
+    
+background: -ms-linear-gradient(130deg, blue, green, white);
+
+}
+ 
+/*Repeating a Linear-Gradient*/
+div.repeating {
+    
+float: left;
+    
+width: 300px; 
+    
+height: 100px;
+    
+margin: 4px;
+    
+color: #FFF;
+    
+background: repeating-linear-gradient(blue, green 20px);
+
+}
+
+/*RADIAL GRADIENT*/
+/*shapes*/
+/*default*/
+div.default {
+
+float: left;    
+height: 150px;
+    
+width: 200px;
+    
+color: #FFF;
+  
+margin:4px;  
+background: -moz-radial-gradient(green, yellow, blue);   
+    
+background: -webkit-radial-gradient(green, yellow, blue);
+    
+background: -ms-radial-gradient(green, yellow, blue);
+
+}
+
+
+/*circle*/
+div.circle {
+  
+float: left;  
+height: 150px;
+    
+width: 200px;
+    
+color: #FFF;
+ 
+margin:4px;   
+background: -moz-radial-gradient(circle, green, yellow, blue); 
+    
+background: -webkit-radial-gradient(circle, green, yellow, blue); 
+    
+background: -ms-radial-gradient(circle, green, yellow, blue); 
+
+}
+
+/*Radial Gradient Position*/
+/*topleftcorner*/
+div.Top_left {
+ 
+float: left;   
+height: 150px;
+    
+width: 200px;
+    
+color: #FFF;
+    
+margin:4px;
+background: -moz-radial-gradient(top left, green, yellow, blue);   
+    
+background: -webkit-radial-gradient(top left, green, yellow, blue);
+    
+background: -ms-radial-gradient(top left, green, yellow, blue);
+
+}
+
+
+/*In Percentage*/
+/*In addition to percentages, you can use pixels or ems*/
+div.percentage {
+
+float:left;    
+height: 150px;
+    
+width: 200px;
+    
+color: #FFF;
+
+margin:4px;    
+background: -moz-radial-gradient(green 5%, yellow 15%, blue 60%); 
+    
+background: -webkit-radial-gradient(green 5%, yellow 15%, blue 60%); 
+    
+background: -ms-radial-gradient(green 5%, yellow 15%, blue 60%); 
+
+}
+
+/*In Percentage*/
+/*In addition to percentages, you can use pixels or ems*/
+div.stop {
+
+float:left;    
+height: 150px;
+    
+width: 200px;
+    
+color: #FFF;
+
+margin:4px;    
+background: -moz-radial-gradient(circle, green 40%, yellow 50%, blue 70%); 
+    
+background: -webkit-radial-gradient(circle, green 40%, yellow 50%, blue 70%); 
+    
+background: -ms-radial-gradient(circle, green 40%, yellow 50%, blue 70%); 
+}
+
+
+/*background size property*/
+div.background_size {
+ 
+float:left;   
+   height: 150px;
+   width: 405px;
+   border: 1px solid #000;
+margin: 4px;
+   background: url("pic1.png") no-repeat 50% 50%;
+   background-size: 200px 100px;
+}
+
+
+/*background size property*/
+/*contain*/
+div.contain {
+ 
+float:left;   
+   height: 150px;
+   width: 405px;
+   border: 1px solid #000;
+margin: 4px;
+   background: url("pic1.png") no-repeat 50% 50%;
+   background-size: contain;
+}
+
+/*background size property*/
+/*cover*/
+div.cover {
+ 
+float:left;   
+   height: 150px;
+   width: 405px;
+   border: 1px solid #000;
+margin: 4px;
+   background: url("pic1.png") no-repeat 50% 50%;
+   background-size: cover;
+color: white;
+}
+
+
+
+
+/* Background clip*/
+#padding {
+
+   border: 2px dotted black;
+   padding: 20px;
+   background: Yellow;
+   background-clip: padding-box;
+  
+}
+
+#padding_box {
+
+   border: 2px dotted black;
+   padding: 20px;
+   background: LightBlue;
+   background-clip: padding-box;
+}
+#content {
+   border: 2px dotted black;
+   padding: 20px;
+   background: Red;
+   background-clip: content-box;
+coler:white;
+}
+
+
+/*background-clip image*/
+div.content_box {
+   
+font-size: 25px; 
+background-image: url("pic2.png");
+    
+background-clip: content-box;
+    
+border: 2px dotted black;
+    
+padding: 20px;
+
+}
+
+/* make transparent borders for an element*/
+div.transparant {
+    
+border: 20px solid rgba(0, 0, 0, 0.3);
+    
+width:200px;
+    
+position:relative;
+    
+top:130px;
+    
+left:400px;
+    
+background-color:white;
+
+}
+
+
+div.transparentclip {
+    
+border: 20px solid rgba(0, 0, 0, 0.3);
+   
+-moz-background-clip: padding-box; 
+    
+-webkit-background-clip: padding-box; 
+    
+background-clip: padding-box; 
+    
+width:200px;
+    
+position:relative;
+    
+top:130px;
+    
+left:400px;
+    
+background-color:white;
+
+}
+
+/*multiple backgrounds*/
+div.multiple {
+   
+position:relative;
+top:150px;
+left: 400px; 
+width: 400px;
+    
+height: 300px;
+    
+background-image: 
+url("background2.jpg") , url("background1.jpg") , url("background3.jpg") ; 
+background-position: right top, left bottom, left top;
+    
+background-repeat: no-repeat;
+
+color:white;
+} 
+
+/*multiple background shorthand property*/
+div.shorthand {
+
+position:relative;
+top: 200px;
+left:170px;   
+ background: url("background2.jpg") right top no-repeat, url("background1.jpg") left bottom no-repeat; 
+   
+ width: 400px;
+    
+height: 300px;
+
+color:white;
+}
+
+/*opacity of a image*/
+#img1 {
+  
+opacity: 0.7;
+
+}
+
+
+#img2 {
+    
+opacity: 0.5;
+
+}
+
+#img3 {
+    
+opacity: 0.25;
+
+}
+
+p.color{
+color:white;
+font-size:18px;
+}
+
+
+/*The alpha filter is a Microsoft-only property, not a standard CSS property.*/
+img {
+    
+opacity: 0.5;
+    
+filter: alpha(opacity=50);
+
+}

@@ -1,0 +1,589 @@
+
+<!--=========================================HTML TAG=============================================================-->
+<html>
+
+
+<!-- ==========================<head></head> AND <title></title> TAG============================================ -->
+  <head>
+      <title>  About Me! </title>  <!-- title = Bold scripted-->
+ <!--    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">  -->
+
+
+</head> <!--END HEAD -->
+
+<br/>
+<br/>
+
+
+<!-- ==========================<body> </body> TAG  =======================================================
+    ==================================================<body bgcolor ="kleur"> </body=========-->
+ <body bgcolor="#606060">
+
+
+
+
+<!-- ==========================Rectangular shape  ==================================================== -->
+
+<p align="center">
+<svg width="100" height="30">
+   <rect width="100" height="20" 
+     x="20" y="20" fill="Orange" />
+</svg>
+
+<svg width="100" height="30">
+   <rect width="100" height="20" 
+     x="20" y="20" fill="Orange" />
+</svg>
+
+<svg width="100" height="30">
+   <rect width="100" height="20" 
+     x="20" y="20" fill="Orange" />
+</svg>
+
+<svg width="100" height="30">
+   <rect width="100" height="20" 
+     x="20" y="20" fill="Orange" />
+</svg>
+
+<svg width="100" height="30">
+   <rect width="100" height="20" 
+     x="20" y="20" fill="Orange" />
+</svg>
+
+<svg width="100" height="30">
+   <rect width="100" height="20" 
+     x="20" y="20" fill="Orange" />
+</svg>
+
+<svg width="100" height="30">
+   <rect width="100" height="20" 
+     x="20" y="20" fill="Orange" />
+</svg>
+
+<svg width="100" height="30">
+   <rect width="100" height="20" 
+     x="20" y="20" fill="Orange" />
+</svg>
+
+
+
+</p>
+
+
+
+
+<!-- ==========================Animation  ==================================================== -->
+<svg width="1000" height="20">
+<rect width="10" height="10" fill="orange">
+  <animate attributeName="x" from="150" to="830"
+    dur="10s" fill="freeze" repeatCount="1000"/> 
+</rect>
+</svg>
+
+<!--===================================================HTML Header PHOTO============================================
+=========================<img scr="">   height="" width="70%" border="5px" TAG WEBPAGE HEADER FOTO ======== -->
+<p align="center" >    
+<img  src="wallpaper.jpg"   alt=""     height="30%"  width="70%" border="5px"     / >
+ <p/>
+
+
+<!-- ==========================Animation  ==================================================== -->
+<svg width="1000" height="20">
+<rect width="10" height="10" fill="orange">
+  <animate attributeName="x" from="150" to="830"
+    dur="10s" fill="freeze" repeatCount="indefinite"/> 
+</rect>
+</svg>
+
+
+<!-- ==========================Rectangular shape  ==================================================== -->
+
+<p align="center">
+<svg width="100" height="30">
+   <rect width="100" height="20" 
+     x="20" y="20" fill="Orange" />
+</svg>
+
+
+<svg width="100" height="30">
+   <rect width="100" height="20" 
+     x="20" y="20" fill="Orange" />
+</svg>
+
+<svg width="100" height="30">
+   <rect width="100" height="20" 
+     x="20" y="20" fill="Orange" />
+</svg>
+
+<svg width="100" height="30">
+   <rect width="100" height="20" 
+     x="20" y="20" fill="Orange" />
+</svg>
+
+<svg width="100" height="30">
+   <rect width="100" height="20" 
+     x="20" y="20" fill="Orange" />
+</svg>
+
+<svg width="100" height="30">
+   <rect width="100" height="20" 
+     x="20" y="20" fill="Orange" />
+</svg>
+
+<svg width="100" height="30">
+   <rect width="100" height="20" 
+     x="20" y="20" fill="Orange" />
+</svg>
+
+<svg width="100" height="30">
+   <rect width="100" height="20" 
+     x="20" y="20" fill="Orange" />
+</svg>
+
+</p>
+
+<br/>
+<br/>
+
+
+
+<!-- ==================================PASSWORD   <input type="" name=""/>================================== -->
+<!-- =============================================<input type="submit" value="Submit"/> =====================-->
+<!-- =============================================placeholder            ====================================-->
+<p align="right"  span style=color:white; font size:30px>Login >
+
+<form align="right"span style=color:white align="right" action="_.php" target="_blank"  autocomplete="off" >
+ Username </font> <input type="text" name="username"  placeholder="email@example.com" required /><br/>
+ Password  <input type="password" name="password" /><br/> 
+           <input type="submit" value="Enter" />
+</form>
+
+</p>
+
+<!-- ===========================================Storing a value===============================================
+
+<!--Storing a Value:
+localStorage.setItem("key1", "value1");-->
+
+<!--Getting a Value: this will print the value
+alert(localStorage.getItem("key1")); -->
+
+<!--Removing a Value:
+localStorage.removeItem("key1");-->
+
+<!--Removing All Values:
+localStorage.clear();-->
+
+
+<!-- ===========================================Youtube SoloLearn===============================================
+============================================<iframe height="" width> (video frame)==============================
+===============================================scrc="http//:"allowfullscreen frameborder="0"==================-->
+<div class="section">
+<h1 align="center"> <span style=color:#FFAA00 > SoloLearn </span> <br/>
+ <iframe height="250"width="400"
+src="https://www.youtube.com/embed/Q6_5InVJZ88" allowfullscreen frameborder="0">
+</iframe>
+</h1>
+</div>
+
+
+<!--====================================Learning HTML=======================================================
+========SPAN STYLE <span style="color:blue; font-style:italic; font-size:10vw"(responsive);==================
+ =====font-size:60px; font-family:serif; font-weight:normal/bold; font-size:10vw"; font-size: 2.5em === -->
+      
+<p align="center"> 
+<span style="color:#FFAA00; font-style:italic; font-size:60px">  <b>Learning HTML </b> </span>
+</p>
+
+<br/>
+<br/>
+<br/>
+
+
+
+<!-- ==========================<img scr="">TAG    PROFILE PHOTO=============================================== -->
+<img   src="nelio1.png" height="30%"  width="20%" border="6p"x alt="" draggable="true"  autofocus />
+
+
+<!-- ============<p></p> TAG PHARAGRAPH AND FONT STYLES=======================================================-->
+<!-- b=Bold(thick text) 
+     big=big text   
+     i=Italic(shuin text)  
+     small=Small text 
+     strong=Strong text(emportant text)
+     sub=Subscripted text(half character above normal line)
+     sup=Superscripted text(half character under normal line)
+     ins=inserted text(Underlined text)  
+     del=Deleted text(doorstreept text)  
+     em=emphasized text(schuin text) 
+-->
+
+
+<!-- =======================================WHO AM I========================================================
+===============================<h1> TAG <h1> to <h6> tags are used to define HTML headings  SIZE=============== -->
+<h1 align="center" >   <span style="color:#FFAA00" ><ins> Who Am I!!! </ins> </span></h1> <!-- INS= INSERTED TEXT -->
+<br/>
+
+
+<!--===========================<div style=""></div>  css styling========DIV TAG=============================== -->
+<div style="background-color:brown; color:black; padding:50px;">
+
+
+<!--   ==================================Pargrhaph========================================================== -->
+
+<p> Hello, </p>
+
+<p>My name is <b> Ornelio Edwin Reiph(bold)</b>.<br/> 
+I am <big>40 years(big)</big> old.<br/>  
+I am living in  <i>Leeuwarden(italic)</i> in <small>Friesland(small), The Netherlands </small>. <br/>  
+Right now i am <strong> studying(strong) </strong> for the course of <span style="color:yellow"> <em>CodeZilla </span><img src="codezilla.png" height="15%"  width="7%" border="3p"x alt="" align="center"/> HTML ( emphasized)</em>.<br/>  
+
+HTML is a <sup>very nice(sup)</sup> language to learn!.<br/> 
+I have <sub>started learning programming(sub)</sub> Html in <ins> Oktober (ins)</ins><del>2017(del)</del> 2018   .<br/> 
+<br/>
+
+I do hope that i pass for this course.  <br/> 
+
+<br/>
+
+
+<!-- ======================<ul></ul> <li> </li> Unordered List UNORDERED LIST HOBBIES=========================-->
+<ul>
+ <li> Fitness</li>
+ <li> Automation </li>
+ <li> Programming </li>
+</ul>
+ 
+<br/>
+
+<p> <big> These are the courses that i am learning! </big>
+
+<!-- =====================<ol></ol> <li></li> Ordered Lists=================================================== -->
+<ol>
+
+<li>HTML</li>
+<li>CSS </li>
+<li>JavaScript </li>
+<li>php </li>
+</ol>
+
+<big> These are the Course Links </big>
+
+<!-- =======================<ul></ul> <li> </li> Unordered List with Hyperlink================================-->
+<ul>
+ <li> <a href="https://www.codegorilla.nl"  target="_blank"> CodeGorilla </a> </li>
+<li> <a href="https://www.sololearn.com/" target="blank"> Sololearn </a> </li>
+<li>  <a href="https://gallery.mailchimp.com/6c8fa52e244d80cb4a7810d08/images/dfc281bf-3d7b-4827-825b-365f927b3c8e.png"  target="blank"> Selection Procedure </a> </li>
+<li>  <a href="https://gallery.mailchimp.com/6c8fa52e244d80cb4a7810d08/files/8408d9f6-77cd-45bb-96fb-5480ffd2a089/CodeGorilla_Thuisstudie_najaar_2018_Leeuwarden.pdf" target="blank"> Inhoud thuisstudie  </a> </li>
+</ul>
+</p>
+
+<br/>
+<br/>
+
+
+<p align="center"> <sub>Thank you!</sub> </p>   <!-- text is in sub scripted -->
+
+
+<!-- ======================<p align="center /left/right"  PARAGRHAPH ALIGN=================================-->
+<p align="center"> "Ornelio Edwin Reiph"   <!-- align text in the center -->
+</p>
+
+
+</div>
+
+
+
+<p align="center">
+<!-- ===========================================SCHEDULE STUDY===============================================-->
+<!-- ==================<table> </table>  and <table border="">  TAG <tr></tr> <td></td>=table row and data===-->
+<!-- ==================<td colspan="">=table data columspan==================================================-->
+<!-- ==================bgcolor=""   = BACKCOLOR in TAG element===============================================-->
+
+ <big> Schedule Study:</big>
+<p/>
+<table border="2" align="center">
+ <tr>
+   <td bgcolor="White"> <b>Day</b>       </td>
+   <td bgcolor="white"> <b>Monday</b>    </td>
+   <td bgcolor="white"> <b>Tuesday</b>   </td>
+   <td bgcolor="white"> <b>Wednesday</b> </td>
+   <td bgcolor="white"> <b>Thursday</b>  </td>
+   <td bgcolor="white"> <b>Friday</b>    </td>
+   <td bgcolor="white"> <b>Saturday</b>  </td>
+   <td bgcolor="white"> <b>Sunday</b>    </td> 
+
+</tr>
+
+ <tr>
+    <td bgcolor="white"> <b>Time</b> </td>
+    <td bgcolor="yellow">10.00-16.00 </td>
+    <td bgcolor="yellow">10.00-19.00 </td>
+    <td bgcolor="yellow" >10.00-16.00 </td>
+    <td bgcolor="yellow">10.00-16.00 </td>
+    <td bgcolor="yellow">10.00-16.00 </td>
+    <td bgcolor="yellow">10.00-16.00 </td>
+    <td bgcolor="yellow">10.00-16.00 </td>
+</tr>
+
+
+<tr> 
+ <td bgcolor="white">  <b>Task </b> </td> 
+ <td bgcolor="green"> <b>HTML </b> </td>
+ <td bgcolor="green"> <b>HTML </b> </td>
+ <td bgcolor="yellow"> </td>
+ <td bgcolor="yellow"> </td>
+ <td bgcolor="yellow"> </td>
+ <td bgcolor="yellow"> </td>
+ <td bgcolor="yellow"> </td>
+<tr>
+ <td> <br/> </td>
+<td colspan="2"> <br/> </td>
+ </tr>
+
+<tr>
+
+  <td> <br/><br/> </td>
+ <td> </td>
+ <td bgcolor="red" colspan="5"  align="center">  1 october 2018 - 7 october 2018</td>
+ <td> </td>
+</table>
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+<!-- ============================Radio and Checkbox=====<INPUT TYPE="" name="" value="" />================ -->   
+<b >  <font color="#FFFFFF">Do you like this website?</font>
+
+<form method="POST"action="#" >
+<input type="radio" name="yes" value="yes" /> <font color="#FFFFFF"> Yes </font> 
+ <input type ="radio" name="no" value="no"/>  <font color="#FFFFFF"> No </font> 
+</b>
+</form>
+<br/>
+
+<b> <font color="#FFFFFF"> What is your rate? </font>
+ <input type="checkbox" name= "rate1" value="1"/> <font color="#FFFFFF"> 1 </font>
+<input type="checkbox"  name= "rate5" value="5"/> <font color="#FFFFFF"> 5 </font>
+<input type="checkbox"name="rate 10"value="10"/> <font color="#FFFFFF"> 10 </font>
+</b>
+
+
+<br/>
+<BR/>
+<br/>
+<br/>
+
+
+<!--  ===============================Contact Form========================================== -->
+<div align="center" class="section">
+            
+<h3><span style="color:white"> Contact Me</span></h1>
+           
+ 
+<form span style="color: white" >
+                
+<b>Name:  </b><input name="name" type="text"  required/> <br/>
+                
+<b>Email  : </b><input name="email" type="email" placeholder="email@example.com" required /> <br/>
+              
+<b>Text   :</b>  <textarea name="message"  ></textarea>
+  <br/>             
+  <input type="submit" value="SEND" class="submit" />
+            
+</form>
+       
+ </div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+<!-- ===================image foto of facebook==================================================FACEBOOK -->       
+<img src="C:\Users\Room\Pictures\pictures\facebook.jpg" height="30px" width="30px" border="1px"/>
+
+
+
+
+<!-- ===========================================facebook hyperlink ==============================-->
+<a href="http://www.facebook.com" target="_blank"> <font color="#FFFFFF"> facebook</font>  </a>
+<br/>
+
+
+
+<!--========<video></video>========VIDEO MP4=========autoplay and autoplay loop================= -->
+<p align="center"> <video controls>
+   <source src="video.mp4" type="video/mp4">
+   <source src="video.ogg" type="video/ogg">
+   Video is not supported by your browser
+</video>
+</p>
+
+<!--
+<video controls autoplay loop>
+   <source src="video.mp4" type="video/mp4">
+   <source src="video.ogg" type="video/ogg">
+   Video is not supported by your browser
+</video>
+-->
+
+
+<!--==============<audio></audio>=============AUDIO======================================= -->
+
+<!--
+<p align="center"><audio  src="C:\Users\Room\Music\2.mp3"controls>
+    
+Audio element not supported by your browser
+
+</audio>
+</p>
+-->
+
+<br/>
+
+<p align="center">
+<audio controls autoplay>
+   <source src="C:\Users\Room\Music\1.mp3" type="audio/mpeg">
+   <source src="C:\Users\Room\Music\1.mp3"> type="audio/ogg">
+   Audio element not supported by your browser. 
+</audio>
+</p>
+
+
+<!--=====     autoplay================================================================
+<audio controls autoplay loop>
+   <source src="C:\Users\Room\Music\1.mp3" type="audio/mpeg">
+   <source src="C:\Users\Room\Music\1.mp3"> type="audio/ogg">
+   Audio element not supported by your browser. 
+</audio>
+-->
+
+
+<!--===============================LABEL <label>=========================================================--> 
+
+<form align="center">
+    <label> <b> Title:</label>
+    <input id="user" name="username" type="text" placeholder="   artist"  required>
+
+
+<!--===============================Search box <input type=""/>=========================================================--> 
+<input type="submit" value="SEARCH" class="submit" />
+
+</form>
+
+<!--===============================LABEL <label>=========================================================--> 
+<input id="mysearch" name="searchitem" type="search" />
+
+
+<!--===============================STATUS BAR==========           =======================================--> 
+<p align="center">
+Status: <progress min="0" max="100" value="35">
+</progress>
+</p>
+
+<!--===============================CREATED BY================================================================
+ ==========================<span type="color:red"> </span>====to GROUP INLINE elements in a document======-->
+<p span style="color:white" align="center">Created by: <span style="color:#000000;font-weight:bold"> Ornelio Edwin Reiph</span> <span style="color:#000000;font-weight:bold">Oktober 2018</span>.</p>
+
+
+
+<!-====================================Scalable Vector Graphics====for drawing shapes=====================-->
+
+<p align="center">
+<svg width="200" height="130">
+   <circle cx="80" cy="80" r="50" fill="green" />
+</svg>
+
+ <svg width="200" height="130">
+   <circle cx="80" cy="80" r="50" fill="blue" />
+</svg>
+
+
+<svg width="200" height="130">
+   <circle cx="80" cy="80" r="50" fill="green" />
+</svg>
+
+<svg width="200" height="130">
+   <circle cx="80" cy="80" r="50" fill="blue" />
+</svg>
+
+</p>
+
+
+
+<!-- ========================== LINE insertion====================================== -->
+<p>
+<svg  width="1000" height="30">
+    <line x1="90" y1="5" x2="850" y2="5" 
+        style="stroke:#000000; stroke-linecap:round; 
+        stroke-width:10"  />
+</svg>
+</p>
+
+
+<!-- ========================== POLINELINE insertion====================================== -->
+
+<svg width="210" height="200">
+    <polyline style="stroke-linejoin:miter; stroke:black; 
+        stroke-width:12; fill: none;"
+        points="100 100, 150 150, 200 100" />
+</svg>
+
+<svg width="210" height="200">
+    <polyline style="stroke-linejoin:miter; stroke:black; 
+        stroke-width:12; fill: none;"
+        points="100 100, 150 150, 200 100" />
+
+</svg><svg width="210" height="200">
+    <polyline style="stroke-linejoin:miter; stroke:black; 
+        stroke-width:12; fill: none;"
+        points="100 100, 150 150, 200 100" />
+</svg>
+
+<svg width="210" height="200">
+    <polyline style="stroke-linejoin:miter; stroke:black; 
+        stroke-width:12; fill: none;"
+        points="100 100, 150 150, 200 100" />
+</svg>
+
+
+
+<input id="car" type="text" list="colors" />
+<datalist id="colors">
+    <option value="Red">
+    <option value="Green">
+    <option value="Yellow">
+</datalist>
+
+
+
+<!-- ========================== HORIZONTAL LINE====================================== -->
+
+<hr  width="1000px"/>    <!-- horizontral line with = 1000pixel broad -->
+
+<hr width="500px"/> <!-- horizontal line is 500 pixel broad -->
+
+<hr width="30%"/> <!-- horizontal line = 30 procenbt broad -->
+
+<hr width="10%" align="right"/> <!-- horizontal line with is 30 procent and align it to the right. -->
+
+<hr width="10%" align="left"/> 
+
+<hr width="100%"/>
+  
+    
+
+
+
+<!--  ===================END BODY AND HTML==================================================================-->
+</body> <!-- END BODY -->
+</frameset>
+</html>

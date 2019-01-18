@@ -1,0 +1,172 @@
+body
+{
+ background-color: gray;
+background: url("background4.jpg");
+}
+
+
+.round {
+    
+-webkit-border-radius: 36px;
+    
+border-radius: 0 0 40px 40px; 
+border:4px solid blue;
+    
+width:300px;
+    
+padding:35px;
+color:white;
+
+font-size: 40px;
+background-color:green;
+
+}
+
+/*Specific border radius values can be applied for the border-radius property in the following order: top-left, top-right, bottom-right, bottom-left.
+The value of border-radius can also be specified in percentages.
+*/
+
+.circle {
+   width: 200px;
+   height: 200px;
+   border-radius: 100px;
+   background-color: green;
+   color: white;
+position: relative;
+left: 120px;
+font-size: 20px;
+
+}
+
+.box {
+  width: 100px;
+   
+ height: 100px;
+    
+background-color: #9ACD32;
+    
+box-shadow:inset 10px 10px 10px 10px #333333, 10px 10px 10px 10px #444444;
+position: relative;
+left: 200px;
+font-size: 20px;
+color:white;
+}
+/* Besides color, there are also two optional values for the box-shadow element, which are blur and spread. 
+- The first length for the horizontal offset will cast the shadow to the right of the box (required)
+- The second length is for the vertical offset that will cast the shadow to below the box (required)
+- The color of the shadow (optional)
+Negative values can also be used for the box-shadow property.
+-horizontal offset - the shadow will be to the left of the box
+-vertical offset - the shadow will be above the box
+blur radius - negative values are not allowed
+spread radius - negative values will cause the shadow to shrink
+inset set de sadow in de box
+You can define as many shadows for the same box as you want by writing all of them comma-separated in the same rule. 
+
+*/
+
+
+
+nav {
+   padding: 50px 0;
+   min-width: 500px; 
+}
+nav ul {
+   background: linear-gradient(90deg, 
+     rgba(255, 255, 255, 0) 0%, 
+     rgba(255, 255, 255, 0.2) 25%, 
+     rgba(255, 255, 255, 0.2) 75%, 
+     rgba(255, 255, 255, 0) 100%);
+   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+     inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+nav ul li {
+   display: inline-block;
+}
+nav ul li a {
+   padding: 10px; 
+   color: #440000;
+   font-size: 33px;
+   font-family: Arial;
+   text-decoration: none;
+   display: block;
+ }
+
+
+/*text shadow*/
+h1 {
+    
+text-shadow: 5px 10px 2px #93968f, -3px 6px 5px #58d1e3;
+
+}
+
+#parent p:first-child {
+   color: green;
+   text-decoration: underline;   
+font-size: 24px;
+}
+
+#parent p:last-child {
+   color: red;
+   text-decoration: underline; 
+font-size: 24px;  
+}
+
+p.pseudo::first-line {
+    
+font-size: 24px;
+color: #589432;
+
+}
+
+/*selection element*/
+p.selection::-moz-selection {
+ background: #8bc34a;
+ color: #red;
+}
+
+
+p.selection::selection {
+ background: #8bc34a;
+ color: #red;
+}
+
+/*before element*/
+p.before_element::before {
+   content: url("pic3.png");
+}
+
+
+/* word-wrap*/
+
+p.word_wrap {
+   width: 210px; 
+   height: 100px;
+   border: 1px solid #220000;
+   word-wrap: normal;
+}
+
+p.break_word {
+   width: 210px; 
+   height: 100px;
+   border: 1px solid #220000;
+   word-wrap: break-word;
+}
+
+
+/* @font-face*/
+@font-face {
+  font-family: Delicious; 
+  src: url('Delicious-Roman.otf'); 
+} 
+@font-face { 
+  font-family: Delicious; 
+  font-weight: bold; 
+  src: url('black.ttf'); 
+}
+h2{
+font-size: 80px;
+   font-family: Delicious, sans-serif; 
+}
+/* @font-face is the namefor a new font in css3*/
+

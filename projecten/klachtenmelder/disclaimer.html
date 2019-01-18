@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+ <head>  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+   <!-- GOOGLE EARTH -->
+<link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAVWqVjNRy6q63B4RNhMSf9lxY9LMHG7CI'></script>
+
+<!-- BOOTSTRAP RESPONSIVE -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- klacht.css -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+<!-- BOOTSTRAP SOCIAL BUTTONS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/bootstrap-social.css">   
+   
+<!-- GOOGLE CSS -->
+<link rel="stylesheet" type="text/css" href="css/google.css">   
+ 
+<!-- FONT AWESOME 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  -->
+  <style>
+  #grey{
+ border-width: 4px;
+        border-style: solid;
+        border-color: darkslategrey;
+        border-radius: 2%;
+        text-align: center;
+        background-image: url("Fotos/img2.jpg");
+  font-size:16px;
+  }
+  </style>
+  
+    </head>
+    <body>
+	  <!-- NAVBAR 1 -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+           <div class="navbar-header">
+               <a class="navbar-brand" href="klacht.html"><i class="fas fa-home"></i> Home</a>
+           </div>
+          <ul class="nav navbar-nav">
+		  <li><a href="welcome.html">KLACHT</a></li>
+        
+            <li><a href="info.html"><i class="fas fa-info"></i> INFO</a></li>
+            <li><a href="faq.html"><i class="far fa-comment-dots"></i> FAQ</a></li>
+          
+            <li><a href="disclaimer.html">DISCLAIMER</a></li>
+
+          </ul>
+        </div>
+      </nav>
+<div id="grey" align="center">
+
+<h1><i class="fas fa-hands-helping"></i>Disclaimer <i class="fas fa-hands-helping"></i></h1>
+<p>
+Wij zijn niet verantwoordelijk voor pagina’s van externe organisaties waarnaar verwezen wordt.
+</p>
+<p>
+Wij geven geen enkele garantie inzake de juistheid of de volledigheid,</br> of het bijgewerkt zijn van de informatie die op dit systeem werd geraadpleegd of die via dit systeem werd uitgewisseld.
+</p>
+<p>
+Wij kunnen geen garantie bieden betreffende de veiligheid van de website,</br> noch aansprakelijk gesteld worden voor de schade die, rechtstreeks of onrechtstreeks,</br> het gevolg is van een onderbreking in de beschikbaarheid van de site.
+</p>
+</div>
+
+	          <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="{{ asset('js/main.js') }}">
+        <script>
+        @if ($errors->any())
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
+        </script>
+        
+        <script>
+        $(document).ready(function() {
+        var urls = ['img/03.jpg', 'img/08.jpg', 'img/06.jpg', 'img/04.jpg', 'img/05.jpg', 'img/02.jpg', 'img/07.jpg', 'img/01.jpg', 'img/09.jpg', 'img/10.jpg'];
+            var cout = 1;
+            $('body').css('background-image', 'url("' + urls[0] + '")');
+            setInterval(function() {
+            $('body').css('background-image', 'url("' + urls[cout] + '")');
+            cout == urls.length-1 ? cout = 0 : cout++;
+        }, 2000);
+        });
+        </script>
+              
+    <div id="footer">
+    <footer>
+        &copy; 2018 - <script type="text/javascript">document.write(new Date().getFullYear());</script>
+    </footer>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+html, body {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+  font-weight: 'Strong';
+  height: 100vh;
+  margin: 0;
+  background-size: 100%;
+  opacity: 0.9;  
+}
+/* harmonica aka accordion */
+.harmonica {
+  background-color: antiquewhite;
+  cursor: pointer;
+  border: 1px;
+  color: rgb(0, 0, 0);
+  padding: 1px;
+  width: 80%;
+  text-align: center;
+  margin-left:10%;
+  transition: 1s;
+ }
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .harmonica:hover {
+  background-color: antiquewhite;
+}
+
+/* Style the harmonica panel. Note: hidden by default */
+.texter {
+  width: 80%;
+  align-content: center;
+  text-align: center;
+  background-color: antiquewhite;
+  display: none;
+  overflow: hidden;
+  padding: 0 10px;
+  margin-left: 10%;
+}
+
+#grey {
+  background-color: antiquewhite;
+  border: 1px;
+  color: rgb(0, 0, 0);
+  padding: 1px;
+  width: 80%;
+  
+  margin-left:10%;
+  transition: 1s;
+ }
+
+.links > a {
+  color: rgb(0, 0, 0);
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  font-weight: 'Strong';
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.links {
+  align-content: center;
+  background-color: #eee;
+  border: 1px;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  z-index: 2;
+}
+
+.m-b-md {
+  margin-bottom: 30px;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: fixed;
+  right: 10px;
+  top: 18px;
+}
+
+.title {
+  padding:10px;
+  font-size: 84px;
+}
+
+#footer {
+  position:fixed;
+  bottom:0;
+  width:100%;  
+}

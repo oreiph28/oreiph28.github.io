@@ -1,0 +1,47 @@
+head { color:  #ffe6ff;
+}
+
+body {
+    background-color: #ffccff;
+	text-align: left;
+	background-color: #FFF4E4
+}
+
+h1 {
+    color: #68BAF4;
+    text-align: left
+
+}
+P {padding: 10px;
+border: 5px  color #ffe6ff;
+}
+table, th, td {
+   border: 1px solid #A9A9A9;
+   background-color: #A9A9A9
+}
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	text-align: center;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+	text-align: center;
+}
+#customers a:link{color: #ffffff;}
+#customers a:visited{color: #ffffff;}
+#customers a:hover{color: #A9A9A9;}
+
+#customers a:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #A9A9A9;
+    color: white
+	text-align: center;
+}

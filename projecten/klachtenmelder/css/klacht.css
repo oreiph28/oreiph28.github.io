@@ -1,0 +1,134 @@
+
+body{
+     height: 600px;
+	  
+      
+     background-color: antiquewhite;
+    }
+
+#header{
+        background-image: url("Fotos/img2.jpg");
+        border-width: 4px;
+        border-style: solid;
+        border-color: darkslategrey;
+        border-radius: 2%;
+        text-align: center;
+        }
+
+#footer{
+        border-width: 4px;
+        border-style: solid;
+        border-color: darkslategrey;
+        border-radius: 2%;
+        text-align: center;
+        background-image: url("Fotos/img2.jpg");
+        }
+
+#menu{
+      background-image: url("Fotos/img1.jpg");
+      border-width: 4px;
+      border-style: solid;
+      border-color: darkslategrey;
+      border-radius: 2%;
+      }
+
+#post{
+      margin-left:10px;
+      padding:14px;
+      background-color: antiquewhite;
+      border-width: 4px;
+      border-style: solid;
+      border-color: darkslategrey;
+      border-radius: 2%;
+      width: 300px;
+      height:520px;
+      opacity: 0.9;
+     }
+
+#zoeken{
+        margin-left:10px;
+        padding:14px;
+        background-color: antiquewhite;
+        border-width: 4px;
+        border-style: solid;
+        border-color: darkslategrey;
+        border-radius: 2%;
+        width:300px;
+        height:520px;
+        opacity: 0.9;
+        }
+
+#menu_pic{
+          background-color: cadetblue;
+         }
+
+#Postcode_bar{
+              background-color:lightsteelblue;
+              text-align:center;
+              padding:24px;
+             width:300px;
+             }
+
+#zip{
+     width: 85px;
+     margin-left:30px;
+    }
+
+#h{
+   text-align:center;
+  }
+
+#google{
+        padding:14px;
+        }
+
+#w3{
+    background-color: cadetblue;
+    border-width: 4px;
+    border-style: solid;
+    border-color: darkslategrey;    
+    border-radius: 4px;
+   }
+
+
+   #responsive {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    border-width: 4px;
+    border-style: solid;
+    border-color: darkslategrey;    
+    border-radius: 4px;
+  }
+
+  #gmap_canvas{
+                background-image: url("Fotos/nederland.jpg");
+                background-size:cover;
+                background-color:gray;
+                border-width:4px;
+                border-style: solid;
+                border-color: darkslategrey;
+                }  
+            
+  #map{
+    display: none;
+  }
+  #map2{
+    display: none;
+  }
+  #map3{
+    display: none;
+  }
+
+  #map1{
+    display: none;
+  }
+
+  #map12{
+    display: none;
+  }
+
+
+
+
+

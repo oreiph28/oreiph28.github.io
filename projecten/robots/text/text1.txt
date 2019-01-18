@@ -1,0 +1,7 @@
+
+
+
+A humanoid robot is a robot with its body shape built to resemble the human body. <br/>
+The design may be for functional purposes, such as interacting with human tools and environments, for experimental purposes, such as the study of al locomotion, or for other purposes. In general, humanoid robots have a torso, a head, two arms, and two legs, though some forms of humanoid robots may model only part of the body, for example, from the waist up. <br/>
+Some humanoid robots also have heads designed to replicate human facial features such as eyes and mouths. <br/>
+Androids are humanoid robots built to aesthetically resemble humans.

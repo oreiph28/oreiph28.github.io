@@ -1,0 +1,137 @@
+body{
+background-color: #908080;
+}
+
+span {
+font-style: normal;
+font-family:Times;
+font-size: 20px;
+   display: block;
+color: white;
+
+}
+
+
+p.inline {
+font-size: 20px
+; 
+color: white;
+display: inline;
+}
+
+
+h2 {
+
+   display: none;
+}
+
+#s{
+font-size: 20px;
+color: green;
+}
+
+div.visibility {
+   visibility: hidden;
+}
+
+div.display {
+   display: none;
+}
+
+
+p.position_static {
+   position:static;
+   top: 300px;
+   left: 500px;
+   color: white;
+}
+
+p.position_fixed{
+position: fixed;
+top: 300px;
+right: 80px;
+color: red;
+font-size: 20px
+}
+
+
+
+p.position_relative {
+   width: 350px;
+   border: 3px red solid;
+   position: relative;
+   left: 100px;
+}
+
+ee {
+   background: green;
+   color:white;
+   position: relative;
+   top: 150px;
+   left: 50px;
+}
+
+
+
+
+hh {
+    
+    float: left;
+    
+    width: 120px;
+    
+    margin-right: 10px;
+}
+
+
+
+
+.floating {
+   float: right;
+}
+
+
+div.overflow {
+  width: 150px;
+  height: 150px;
+  background-color: LightBlue;
+  float: left;
+  overflow: scroll;
+/*  overflow: hidden;*/
+/*   overflow: auto;
+}
+
+blue { 
+   
+background-color: #8EC4D0;
+    
+margin-bottom: 15px;
+   
+ width: 120px;
+    
+height: 120px;
+    
+color: #FFF;
+
+z-index: 3; 
+}
+
+
+red {
+    
+background-color: #FF4D4D;
+    
+position: relative;
+    
+width: 120px;
+    
+height: 120px;
+    
+color: #FFF;
+    
+margin-top: -50px;
+    
+margin-left: 50px;
+
+z-index: 2; 
+}
