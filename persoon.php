@@ -26,10 +26,8 @@
  <div align="center" id="div1">
   <p>
    <h3 id="h3">Adres:</h3>
-    O.E. Reiph <br />
-    Schieringerweg 189-C <br />
-    8924HV<br />
-    Friesland</b>
+   ********<br />
+    *******</b>
     Netherlands<br /> 
    </p>
  </div>
