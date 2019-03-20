@@ -26,10 +26,7 @@
   <p >
     <h3 id="h3">Wie ben ik!</h3>
     Mijn naam is OrnelioReiph.<br />
-    Ik ben geboren op Sint Maarten.<br />
-    Vanaf mijn 5e jaar ben ik naar Nederland geemigreerd.<br />
-    Mijn leeftijd is 40 jaar.</b>
-    Sinds 2005 woon ik in Leeuwarden.<br /> 
+   
     </p>
  </div>
 
